@@ -17,13 +17,13 @@ android {
 //            storePassword keystoreProperties['storePassword']
         }
     }
-    compileSdkVersion 27
+    compileSdkVersion 30
     defaultConfig {
         applicationId "com.ctp.theteleprompter"
-        minSdkVersion 16
-        targetSdkVersion 27
-        versionCode 5
-        versionName "1.1.2"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 37
+        versionName '3.1.1'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.config
         vectorDrawables.useSupportLibrary = true
